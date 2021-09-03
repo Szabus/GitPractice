@@ -17,6 +17,14 @@ public class Humanoid implements HumanoidInterface {
 
     public Humanoid() {}
 
+    public Humanoid(String lastName, String firstName, LocalDate birth, boolean isSad, List<Animal> petsOwned) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.birth = birth;
+        this.isSad = isSad;
+        this.petsOwned = petsOwned;
+    }
+
     public Humanoid(String lastName, String firstName, LocalDate birth) {
         // TODO
     }
