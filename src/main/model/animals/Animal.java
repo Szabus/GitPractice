@@ -32,17 +32,17 @@ public class Animal implements AnimalInterface {
 
     @Override
     public void eat() {
-        // TODO
+        this.isHungry = false;
     }
 
     @Override
     public void makeSound() {
-        // TODO
+        System.out.println("Krrr....");
     }
 
     @Override
     public void play() {
-        // TODO
+        System.out.println(this.name + " is playing with " + this.favoriteToy);
     }
 
     public String getName() {
