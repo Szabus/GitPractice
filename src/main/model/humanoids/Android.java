@@ -2,6 +2,13 @@ package main.model.humanoids;
 
 public class Android extends Humanoid {
 
-    // TODO
+    protected int versionNumber;
 
+    public int getVersionNumber() {
+        return versionNumber;
+    }
+
+    public void setVersionNumber(int versionNumber) {
+        this.versionNumber = versionNumber;
+    }
 }
