@@ -2,6 +2,6 @@ package main.model;
 
 public enum Gender {
 
-    // TODO
-
+    FEMALE,
+    MALE;
 }
