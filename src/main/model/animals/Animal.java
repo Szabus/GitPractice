@@ -17,6 +17,15 @@ public class Animal implements AnimalInterface {
 
     public Animal() {}
 
+    public Animal(String name, LocalDate birth, String favoriteToy, Food favoriteFood, boolean isHungry, Humanoid owner) {
+        this.name = name;
+        this.birth = birth;
+        this.favoriteToy = favoriteToy;
+        this.favoriteFood = favoriteFood;
+        this.isHungry = isHungry;
+        this.owner = owner;
+    }
+
     public Animal(String name, LocalDate birth, String favoriteToy, Food favoriteFood, Humanoid owner) {
         // TODO
     }
